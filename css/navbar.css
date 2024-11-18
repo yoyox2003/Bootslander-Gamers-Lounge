@@ -1,37 +1,5 @@
-:root {
-    /* I copied the colors from the css file for the website*/
 
-    /* fonts */
-    --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --heading-font: "Raleway",  sans-serif;
-    --nav-font: "Poppins",  sans-serif;
-    
-    /* Global colors */
-    --background-color: #ffffff; 
-    --default-color: #444444; 
-    --heading-bg-color: #16088d;
-    --accent-color: #1acc8d; 
-    --surface-color: #ffffff; 
-    --contrast-color: #ffffff;
 
-    /* nav colors */
-    --nav-color: #ffffff; 
-    --nav-hover-color: #1acc8d; 
-    --nav-mobile-background-color: #ffffff; 
-    --nav-dropdown-background-color: #ffffff;
-    --nav-dropdown-color: #444444;
-    --nav-dropdown-hover-color: #1acc8d; 
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #eee;
-    margin: 0;
-    /* padding: 0; */
-}
 
 .header {
     width: 100%;
@@ -66,6 +34,10 @@ body {
 
 /* nav for desktop */
 @media (min-width: 1000px){
+
+    .mobile-nav-toggle {
+        display: none;
+    }
 
     .navmenu ul{
         display: flex;
@@ -163,3 +135,7 @@ body {
     }
 }
 
+/* nav for mobile */
+@media (max-width: 999px) {
+
+}
