@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index - Bootslander Bootstrap Template</title>
 
+    <!-- favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <!-- fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -13,8 +17,12 @@
     <!-- css links -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
 </head>
 <body>
+
+    <a href="#hero" class="scroll-top d-flex-center"></a>
+
     <div class="header">
         <div class="container">
             <a href="Index.html">
@@ -22,7 +30,7 @@
             </a>
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -54,5 +62,19 @@
         </div>
     </div>
 
-        </body>
-        </html>
+    <section class="hero d-flex-center" id="hero">
+        <div class="container d-flex-space">
+            <div class="hero-qoutes">
+                <p class="hero-qoute capitalize">Build your landing page with <span>bootslander</span></p>
+                <p class="hero-subqoute">We are a team of talented designers making websites with Bootstrap</p>
+                <div class="d-flex">
+                    <a href="#about" class="round-button">Get started</a>
+                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="hero-video-btn d-flex-center">Watch Video</a>
+                </div>
+            </div>
+            <img src="Assets/img/hero-img.png" alt="" class="hero-img">
+        </div>
+    </section>
+
+</body>
+</html>

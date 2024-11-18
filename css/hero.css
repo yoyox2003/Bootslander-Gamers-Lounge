@@ -1,0 +1,94 @@
+.hero {
+    width: 100%;
+    background-image: url(../Assets/img/hero-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    top: -80px;
+}
+
+.hero::after {
+    content: "";
+    background: color-mix(in srgb,  #08005e, transparent 10%);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.hero .container {
+    width: 90%;
+    z-index: 2;
+    position: relative;
+    color: #ffffff;
+    color: color-mix(in srgb, var(--contrast-color), transparent 30%);
+    margin-bottom: 20px;
+}
+
+.hero .container .hero-qoutes {
+    width: 52%;
+}
+
+.hero .container .hero-qoutes .hero-subqoute {
+    font-size: 22px;
+    font-family: var(--default-font);
+}
+
+.hero .container .hero-qoutes .hero-qoute {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero .container .hero-qoutes .hero-qoute span {
+    color: var(--contrast-color);
+}
+
+.hero .container .hero-qoutes .hero-qoute span::after {
+    content: "";
+    display: block;
+    width: 285px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-top: 3px;
+}
+
+.hero .container .hero-qoutes div {
+    margin-top: 25px;
+}
+
+.hero-video-btn {
+    font-family: var(--default-font);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--contrast-color);
+    margin-left: 30px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.hero-video-btn::before {
+    content: "\f4f3";
+    font-size: 32px;
+    color: var(--accent-color);
+}
+
+.hero-video-btn:hover {
+    color: var(--accent-color);
+}
+
+.hero .container img {
+    width: 300px;
+    position: relative;
+    top: 0;
+    animation: img-bounce 2s infinite alternate;
+}
+
+@keyframes img-bounce {
+    0% {
+        top: -25%;
+    }
+    100% {
+        top: 15%;
+    }
+}
