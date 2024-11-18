@@ -17,7 +17,7 @@
 }
 
 .hero .container {
-    width: 90%;
+    width: 80%;
     z-index: 2;
     position: relative;
     color: #ffffff;
@@ -43,15 +43,18 @@
 
 .hero .container .hero-qoutes .hero-qoute span {
     color: var(--contrast-color);
+    position: relative;
 }
 
 .hero .container .hero-qoutes .hero-qoute span::after {
     content: "";
     display: block;
-    width: 285px;
+    width: 100%;
     height: 4px;
     background-color: var(--accent-color);
     margin-top: 3px;
+    position: absolute;
+    left: 0;
 }
 
 .hero .container .hero-qoutes div {
