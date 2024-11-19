@@ -31,6 +31,7 @@
     font-family: var(--heading-font);
     font-size: 30px;
     font-weight: 700;
+    color: #ffffff;
 }
 
 /* nav for desktop */
@@ -102,6 +103,7 @@
         color: #444444;
         opacity: 0;
         transition: all 0.3s ease-in-out 0s;
+        box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     }
 
     .navmenu .dropdown ul li ,
@@ -138,5 +140,8 @@
 
 /* nav for mobile */
 @media (max-width: 999px) {
-
+    ul {
+        display: none;
+        visibility: hidden;
+    }
 }

@@ -9,6 +9,7 @@
     /* Global colors */
     --background-color: #ffffff; 
     --default-color: #444444; 
+    --heading-color: #0c0878;
     --heading-bg-color: #16088d;
     --accent-color: #1acc8d; 
     --surface-color: #ffffff; 
@@ -105,4 +106,59 @@ section,
 
 .round-button:hover {
     background-color: color-mix(in srgb, var(--accent-color) , transparent 15%);
+}
+
+.square-button {
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--accent-color) , transparent 0%);
+    color: #ffffff;
+    font-family: var(--heading-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.square-button:hover {
+    background-color: color-mix(in srgb, var(--accent-color) , transparent 15%);
+}
+
+.container {
+    width: 80%;
+    position: relative;
+}
+
+.circle-80 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-family: var(--default-font);
 }
