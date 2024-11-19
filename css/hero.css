@@ -18,6 +18,8 @@
 
 .hero .container {
     /* width: 80%; */
+    height: 500px;
+    margin-top: 30px;
     z-index: 2;
     /* position: relative; */
     color: color-mix(in srgb, var(--contrast-color), transparent 30%);
@@ -82,16 +84,15 @@
 .hero .container img {
     width: 330px;
     position: relative;
-    top: 0;
-    animation: img-bounce 2s infinite alternate;
+    animation: img-bounce 3s infinite alternate;
 }
 
 @keyframes img-bounce {
     0% {
-        top: -10%;
+        top: 0%;
     }
     100% {
-        top: 10%;
+        top: 5%;
     }
 }
 
@@ -100,6 +101,7 @@
         height: 110vh;
         align-items: flex-start;
     }
+
     .hero .container {
         width: 100%;
         height: 90%;
@@ -136,6 +138,5 @@
             top: 1%;
         }
     }
-
 
 }
