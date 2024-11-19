@@ -37,11 +37,11 @@ body {
     height: 40px;
     background-color: var(--accent-color);
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 5px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 4px;
     opacity: 1;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
     z-index: 1000;
 }
 
@@ -49,11 +49,9 @@ body {
 couldn't find the exact arrow that they had on the website.
 i tried using the same uni-code i found but it wasn't there
  */
-.scroll-top::after {
-    content: "\2191";
-    font-size: 30px;
+.scroll-top i {
+    font-size: 24px;
     color: #ffffff;
-    height: 110%;
 }
 
 .scroll-top:hover {

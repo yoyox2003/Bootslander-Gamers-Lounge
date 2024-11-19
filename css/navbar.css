@@ -15,7 +15,7 @@
 
 .container {
     margin: 0px auto;
-    width: 90%;
+    width: 80%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -90,7 +90,7 @@
     }
 
     .navmenu .dropdown ul{
-        width: 210%;
+        width: 200%;
         padding: 15px;
         background-color: var(--nav-dropdown-background-color);
         display: block;
@@ -107,7 +107,7 @@
     .navmenu .dropdown ul li ,
     .navmenu .dropdown ul li a {
         margin-bottom: 15px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .navmenu .dropdown ul li:hover ,

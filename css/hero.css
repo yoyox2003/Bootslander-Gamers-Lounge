@@ -3,7 +3,7 @@
     background-image: url(../Assets/img/hero-bg-2.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 93vh;
     position: relative;
     top: -80px;
 }
@@ -26,7 +26,7 @@
 }
 
 .hero .container .hero-qoutes {
-    width: 52%;
+    width: 50%;
 }
 
 .hero .container .hero-qoutes .hero-subqoute {
@@ -70,10 +70,10 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.hero-video-btn::before {
-    content: "\f4f3";
+.hero-video-btn i {
     font-size: 32px;
     color: var(--accent-color);
+    margin-right: 10px;
 }
 
 .hero-video-btn:hover {
@@ -81,7 +81,7 @@
 }
 
 .hero .container img {
-    width: 300px;
+    width: 330px;
     position: relative;
     top: 0;
     animation: img-bounce 2s infinite alternate;
@@ -89,9 +89,9 @@
 
 @keyframes img-bounce {
     0% {
-        top: -25%;
+        top: -10%;
     }
     100% {
-        top: 15%;
+        top: 10%;
     }
 }
