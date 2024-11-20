@@ -1,0 +1,50 @@
+.stats {
+    background-color: #f4f5fe;
+    position: relative;
+    top: -80px;
+    padding: 60px 0;
+} 
+
+.stats .container {
+    margin-top: 40px;
+}
+
+.stats .container .stat {
+    width: 24%;
+    background-color: #ffffff;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: color-mix(in srgb,  var(--default-color), transparent 20%);
+    position: relative;
+}
+
+.stats .container .stat .num {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 40px 0 5px;
+}
+
+.stats .container .stat .text {
+    font-size: 16px;
+    /* font-weight: 500; */
+    margin: 5px 0 20px;
+}
+
+.stats .container .stat i{
+    background-color: #ffffff;
+    color: var(--accent-color);
+    font-size: 24px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -27px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}

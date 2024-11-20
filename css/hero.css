@@ -84,7 +84,8 @@
 .hero .container img {
     width: 330px;
     position: relative;
-    animation: img-bounce 3s infinite alternate;
+    top: 2.5%;
+    animation: img-bounce 2.5s infinite alternate;
 }
 
 @keyframes img-bounce {

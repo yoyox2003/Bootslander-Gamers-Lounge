@@ -90,8 +90,11 @@ a {
 
 section,
 .section {
+    width: 100%;
     color: var(--default-color);
     background-color: var(--background-color);
+    position: relative;
+    top: -80px;
 }
 
 .round-button {
