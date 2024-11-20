@@ -1,0 +1,64 @@
+.ceo {
+    background-image: url(../Assets/img/testimonials-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: center;
+}
+
+.ceo::after {
+    content: "";
+    background: color-mix(in srgb,  #08005e, transparent 30%);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.ceo .container {
+    z-index: 2;
+}
+
+
+.ceo .container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid color-mix(in srgb, #ffffff, transparent 85%);
+}
+
+.ceo .name {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.ceo .position {
+    font-family: var(--heading-font);
+    font-size: 14px;
+    color: color-mix(in srgb, #ffffff, transparent 40%);
+    margin:0 0 15px;
+    font-weight: 500;
+}
+
+.ceo .stars {
+    color: #f9c100;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.ceo .testimony {
+    width: 80%;
+    font-size: 16px;
+    color: color-mix(in srgb, #ffffff , transparent 2%);
+    font-style: italic;
+    text-align: center;
+    font-family: var(--default-font);
+}
+
+.ceo .testimony i{
+    font-size: 26px;
+    color: color-mix(in srgb, #ffffff, transparent 40%);
+}
+

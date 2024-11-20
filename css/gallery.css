@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr 1fr;
     gap: 3px;
+    margin-bottom: 70px;
 }
 
 .gallery .container .gallery-item{
