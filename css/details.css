@@ -1,0 +1,48 @@
+.details img{
+    width: 100%;
+}
+
+.details .container {
+    margin-bottom: 100px;
+}
+
+
+.details .detail {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.details .detail:first-child {
+margin-top: 0;  
+}
+
+.details .detail:nth-child(even) {
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.details .detail .text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details .detail .text .h3 {
+    font-size: 26px;
+}
+
+.details .detail .text div{
+    display: flex;
+    align-items: center;
+}
+
+.details .detail .text div p {
+    margin: 10px 0;
+}
+
+.details .detail .text div i {
+    font-size: 20px;
+    color: var(--accent-color);
+    margin-right: 5px;
+}
