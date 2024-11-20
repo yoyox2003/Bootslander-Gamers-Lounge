@@ -82,7 +82,7 @@
 }
 
 .hero .container img {
-    width: 330px;
+    width: 33%;
     position: relative;
     top: 2.5%;
     animation: img-bounce 2.5s infinite alternate;
