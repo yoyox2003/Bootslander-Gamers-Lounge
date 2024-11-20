@@ -72,6 +72,10 @@ a {
     text-transform: capitalize;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .d-flex {
     display: flex;
 }
@@ -168,4 +172,32 @@ h3 {
 
 p {
     font-family: var(--default-font);
+}
+
+.section-title {
+    width: 80%;
+    margin: 30px auto;
+    padding: 0px 12px 60px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+}
+
+.section-title h3 {
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section-title h3::after {
+    content: "";
+    margin: 4px 10px;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: var(--accent-color);
 }
