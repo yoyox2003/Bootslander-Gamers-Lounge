@@ -11,6 +11,7 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .pricing .plan h3 {
@@ -21,12 +22,15 @@
 
 .pricing .plan > p{
     font-size: 14px;
+    margin-bottom: -3px;
+    margin-top: 3px;
 }
 
 .pricing .plan .price {
     margin-top: 10px;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-family: var(--heading-font);
     color: var(--accent-color);
@@ -46,11 +50,12 @@
 .pricing .plan .credit {
     font-size: 14px;
     align-self: center;
+    margin-top: 5px;
 }
 
 .pricing .plan .square-button {
-    margin-top: 20px;
-    width: 105%;
+    margin-top: 10px;
+    width: 102%;
     padding: 10px 20px;
     background-color: var(--accent-color);
     align-self: center;
@@ -61,6 +66,7 @@
     background-color: transparent;
     border: 1px solid var(--default-color);
     color: var(--default-color);
+    font-weight: 500;
 }
 
 .pricing .plan:nth-child(odd) .square-button:hover {
@@ -69,5 +75,45 @@
     color: #ffffff;
 }
 
+.pricing .plan .item{
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
 
+.pricing .plan i{
+    font-size: 24px;
+}
 
+.pricing .plan .bi-check{
+    color: #059652;
+    margin-right: 5px;
+}
+
+.pricing .plan .bi-x{
+    color: color-mix(in srgb, var(--default-color), transparent 60%);
+    margin-right: 5px;
+}
+
+.pricing .plan .x {
+    text-decoration: line-through;
+    color: color-mix(in srgb, var(--default-color), transparent 60%);
+}
+
+.pricing .plan:nth-of-type(2)::after {
+    content: "Popular";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--accent-color) , transparent 0%);
+    color: #ffffff;
+    font-family: var(--default-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
