@@ -65,7 +65,7 @@
 
 .pricing .plan:nth-child(odd) .square-button:hover {
     background-color: color-mix(in srgb, var(--accent-color) , transparent 0%);
-    border: 0px solid var(--default-color);
+    border: 0px solid transparent;
     color: #ffffff;
 }
 
