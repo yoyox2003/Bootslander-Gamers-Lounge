@@ -1,0 +1,73 @@
+.pricing .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.pricing .plan {
+    padding: 40px;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 96%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing .plan h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing .plan > p{
+    font-size: 14px;
+}
+
+.pricing .plan .price {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+.pricing .plan .price sup {
+    font-size: 28px;
+}
+
+.pricing .plan .price span {
+    font-size: 18px;
+    font-weight: 500;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+
+.pricing .plan .credit {
+    font-size: 14px;
+    align-self: center;
+}
+
+.pricing .plan .square-button {
+    margin-top: 20px;
+    width: 105%;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    align-self: center;
+    transition: 0.3s;
+}
+
+.pricing .plan:nth-child(odd) .square-button {
+    background-color: transparent;
+    border: 1px solid var(--default-color);
+    color: var(--default-color);
+}
+
+.pricing .plan:nth-child(odd) .square-button:hover {
+    background-color: color-mix(in srgb, var(--accent-color) , transparent 0%);
+    border: 0px solid var(--default-color);
+    color: #ffffff;
+}
+
+
+
