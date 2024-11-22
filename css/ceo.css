@@ -58,7 +58,11 @@
 }
 
 .ceo .testimony i{
+    display: inline-block;
     font-size: 26px;
     color: color-mix(in srgb, #ffffff, transparent 40%);
 }
 
+.ceo .testimony .quote-icon-right {
+    transform: rotate(180deg);
+}
