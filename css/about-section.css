@@ -19,11 +19,12 @@
 }
 
 .about .container {
+    width: 85%;
     align-items: center;
 }
 
 .about .description {
-    width: 40% ;
+    width: 39% ;
 }
 
 .about .square-button {
