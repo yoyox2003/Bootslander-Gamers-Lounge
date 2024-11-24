@@ -10,7 +10,7 @@
 .details .detail {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1.3fr 2fr;
 }
 
 .details .detail:first-child {
@@ -37,8 +37,9 @@ margin-top: 0;
     align-items: center;
 }
 
-.details .detail .text div p {
+.details .detail .text p {
     margin: 10px 0;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .details .detail .text div i {

@@ -29,6 +29,7 @@
 }
 
 html {
+    /* width: 100%; */
     scroll-behavior: smooth;
 }
 
@@ -150,7 +151,8 @@ section,
 }
 
 .container {
-    width: 84%;
+    width: 81%;
+    max-width: 1300px;
     position: relative;
 }
 
@@ -188,6 +190,7 @@ p {
 
 .section-title {
     width: 80%;
+    max-width: 1300px;
     margin: 30px auto 0px;
     padding: 0px 12px 60px;
 }
